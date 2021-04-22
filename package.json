@@ -1,0 +1,23 @@
+{
+  "name": "act-sec-group-service",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/app-local.js",
+    "deploy": "serverless deploy"
+  },
+  "author": "Imad Hashmi",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.769.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "serverless-http": "^2.6.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "serverless-dotenv-plugin": "^3.0.0"
+  }
+}
