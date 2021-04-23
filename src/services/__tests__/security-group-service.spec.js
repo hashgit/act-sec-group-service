@@ -27,8 +27,7 @@ describe("security-group-service", () => {
     });
   });
 
-  describe('exception', () => {
-    let awsResult = [];
+  describe('failure', () => {
     let service;
   
     beforeEach(() => {
